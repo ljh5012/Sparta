@@ -79,7 +79,6 @@ class Program
         }
         Console.WriteLine("상태 보기");
         Console.WriteLine("캐릭터의 정보가 표시됩니다.\n");
-        Console.WriteLine("이름: ");
         Console.WriteLine("Lv. 01");
         Console.WriteLine("Chad ( 전사 )");
         Console.WriteLine($"공격력 : {totalAttack} ({(totalAttack > 10 ? "+" + (totalAttack - 10) : "")})");
